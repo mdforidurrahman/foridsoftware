@@ -178,7 +178,7 @@
 
         function CalculateGrandTotal(){
             let Total=0;
-            // let Vat=0;
+            let Vat=0;
             let Payable=0;
             let Discount=0;
             let discountPercentage=(parseFloat(document.getElementById('discountP').value));
